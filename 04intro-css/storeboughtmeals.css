@@ -1,0 +1,155 @@
+body {
+
+    font-family: "silver-northern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+/* header stuff here */
+
+header {
+    background-color: #fdfffd;
+    padding: 1rem 2vw;
+    text-align: center;
+
+}
+
+header h1{
+    margin: 0;
+    color: #8B3667;
+    font-weight: 300;
+    font-size: 300%;
+
+}
+
+header p{
+    margin: 0;
+    color: #8B3667;
+    letter-spacing: .5px;
+    font-weight: 200;
+
+}
+
+/* Navigation section here */
+
+nav { 
+    background-color: #B7E1A9;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+
+
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #8B3667;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a{
+    background-color: #8B3667;
+    color:  #B6E0A8;
+
+}
+
+nav a:hover {
+    color:  #fdfffd;
+
+}
+
+/* Main Section here. */
+
+main {
+    padding: 1rem 2vw;
+}
+
+
+main h2 { 
+    color: #7883E0;
+    margin-bottom: 0.2rem;
+    font-weight: 300;
+    font-size: 200%;
+    
+    
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+
+}
+
+
+main ul {
+    list-style-type:disc;
+    
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main address {
+    font-style: normal;
+    padding: .5rem;
+    width:12.5rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: .9rem;
+
+}
+
+main a {
+    color: #262FCA;
+
+}
+
+main a:hover {
+    color: #8B3667;
+
+}
+
+/* Footer Section here. */
+
+footer{
+    background-color: #fdfffd;
+    text-align: center;
+    color: #8B3667;
+    padding: 1rem 0;
+    font-size: .8rem;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
+
+}
+
+footer a {
+    color: #8B3667;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
+    
+}
