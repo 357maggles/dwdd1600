@@ -1,0 +1,313 @@
+/* prevent problems with other browsers */
+
+*{box-sizing: border-box;}
+
+body {
+font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* PHONE NAV HERE */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 1.2rem;
+        font-size: .9rem;
+        text-decoration: none;
+        color: #f9f8eb;
+        text-align: center;
+        border-bottom: solid 1px #aaa; 
+    }
+    nav .active a {
+        background-color: #111111;
+        background-image: linear-gradient(to bottom, #111111, #1F2922 );
+        color: #f9f8eb;
+    }
+} /*end small screens*/
+
+/* COMPUTER NAV HERE */
+@media only screen and (min-width: 601px) {
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+    background-color: #f9f8eb;
+}
+header h1 {
+    margin: 0;
+    color: #42674D;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+header p {
+    margin: 0;
+    padding-top: .5rem;
+    color: #42674D;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+header div {
+    padding-left: 2vw;
+}
+}
+
+/* header stuff here */
+
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+    background-color: #f9f8eb;
+}
+header h1 {
+    margin: 0;
+    color: #42674D;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+header p {
+    margin: 0;
+    padding-top: .5rem;
+    color: #42674D;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+header div {
+    padding-left: 2vw;
+}
+
+
+/* Navigation section here */
+
+nav { 
+    background-color: #42674D;
+    max-width: 1920px;
+    margin: 0 auto;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+
+
+}
+
+nav a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #f9f8eb;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a{
+    background-color: #111111;
+    color:  #f9f8eb;
+
+}
+
+nav a:hover {
+    color:  #81BC6A;
+
+}
+
+/* Main Section here. */
+
+main {
+    padding: 1rem 2vw;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+main h2 { 
+    color: #42674D;
+    margin-bottom: 0.2rem;
+    font-weight: 300;
+    font-size: 200%;  
+}
+
+main h3 {
+    color: #81BC6A;
+    margin-right: 10px;
+}
+
+main p {
+    color: #111111;
+    margin: 0 0 .3rem 0;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+
+}
+
+
+main ul {
+    list-style-type:disc;
+    
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main address {
+    font-style: normal;
+    padding: .5rem;
+    width:12.5rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: .9rem;
+
+}
+
+main a {
+    color: #81BC6A;
+
+}
+
+main a:hover {
+    color: #42674D;
+
+}
+
+.hero {
+    width: 100%;
+    margin: 0;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin:0;
+}
+
+/*Form stuff here */
+
+.myform fieldset {
+    border-radius: 3px;
+    border:  #42674D solid 1px;
+    margin-bottom: .8rem;
+}
+
+.myform legend {
+    color: #42674D;
+    font-size: .8rem;
+
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+    display: block;
+}
+
+.myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+    border: solid 1px #888888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternatives', sans-serif;
+    font-weight: 200;
+
+}
+
+.myform textarea {
+    height: 10rem;
+
+}
+
+.myform :required {
+    background-color: #f9f8eb;
+
+}
+
+.myform [type=submit] {
+    background-color: #42674D;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+/*Testimonial Stuff */
+.testimonial {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  figure.wrapped img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    margin-right: 5px; 
+    object-fit: cover; 
+  }
+  
+  .testimonial-text p {
+    margin: 0; 
+  }
+  
+  .testimonial-text strong {
+    font-weight: bold; 
+    font-size: 1.1em; 
+}
+  
+
+/* Footer Section here. */
+
+footer{
+    background-color: #f9f8eb;
+    text-align: center;
+    color: #42674D;
+    padding: 1rem 0;
+    font-size: .8rem;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
+
+}
+
+footer a {
+    color: #81BC6A;
+    font-family: "kranto-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+footer a:hover {
+    color: #42674D;
+}
